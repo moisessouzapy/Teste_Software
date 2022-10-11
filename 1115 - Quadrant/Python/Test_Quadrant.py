@@ -17,7 +17,7 @@ def test_should_get_quadrant_coordinate():
 
 def teste_second():
     # Arrange / Setup
-    a = -20
+    a = -10
     b = 20
     coordinates = Coordinate(a, b)
     quadrant = Quadrant(coordinates)
@@ -30,8 +30,8 @@ def teste_second():
 
 def teste_third():
     # Arrange / Setup
-    a = -20
-    b = -20
+    a = -1
+    b = -1
     coordinates = Coordinate(a, b)
     quadrant = Quadrant(coordinates)
 
@@ -43,8 +43,8 @@ def teste_third():
 
 def teste_fourth():
     # Arrange / Setup
-    a = 20
-    b = -20
+    a = 10
+    b = -10
     coordinates = Coordinate(a, b)
     quadrant = Quadrant(coordinates)
 
