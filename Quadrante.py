@@ -8,6 +8,6 @@ elif posX > 0 and posY < 0:
 elif posX < 0 and posY < 0:
     print("terceiro")
 elif posX < 0 and posY > 0:
-    print("segundo")
+    print("segundo ")
 else:
     print()
